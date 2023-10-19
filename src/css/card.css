@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ .card_row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+} 
+.card_box{
+    flex-basis: 21,5%; 
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    padding: 10px;
+}
+.title-card{
+    font-size: 21;
+    text-align: center;
+    margin: 40px 0;
+   text-decoration: dashed;
+
+}
+.img-size{
+    height: 250px;
+}
